@@ -4,33 +4,47 @@
   <img src="https://i.ibb.co/3s9wK0M/ancient-stone-texture.jpg" width="100%" />
 </p>
 
-<h1 align="center">𓂀 PRITHIBI // SERPENT ARCHIVE 𓂀</h1>
+<h1 align="center">𓂀 PRITHIBI // MYTHIC CORE 𓂀</h1>
+<p align="center"><i>systems carved in time • worlds forged in code</i></p>
 
 ---
 
-## 🐍 THE AWAKENING
+<!-- RUNE DIVIDER -->
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" />
+  ⚔️ ──── ✦ ──── 🜂 ──── ✦ ──── ⚔️
 </p>
 
 ---
 
 ## 🏛️ ORIGIN
 
-```txt id="a8s2k1"
+```txt id="r1k9a2"
 name      : Prithibi
 class     : Architect
-realm     : systems / worlds / code
+realm     : systems / worlds / intelligence
 status    : evolving
 ```
 
 ---
 
-## 🐍 SERPENT DIVIDER
+## 🐍 + 🔥 AWAKENING
 
 <p align="center">
-  <img src="https://media.giphy.com/media/l41lVsYDBC0UVQJCE/giphy.gif" width="120" />
+  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" />
+</p>
+
+<p align="center">
+  🔥 🔥 🔥  (activity = energy flowing through the system)
+</p>
+
+---
+
+## 🦅 WATCHERS (RAVENS)
+
+<p align="center">
+  <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" width="90"/>
+  <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" width="90"/>
 </p>
 
 ---
@@ -41,26 +55,31 @@ status    : evolving
 
 <svg width="260" height="140">
   <rect width="260" height="140" rx="15" fill="#1a1a1a" stroke="#c2a66b"/>
-  <text x="20" y="40" fill="#c2a66b">LANGUAGE CORE</text>
+  <text x="20" y="40" fill="#c2a66b">LANGUAGE ENGINE</text>
   <text x="20" y="80" fill="#fff" font-size="12">adaptive system</text>
 </svg>
 
 <svg width="260" height="140">
   <rect width="260" height="140" rx="15" fill="#1a1a1a" stroke="#c2a66b"/>
   <text x="20" y="40" fill="#c2a66b">UNREAL WORLD</text>
-  <text x="20" y="80" fill="#fff" font-size="12">cinematic environment</text>
+  <text x="20" y="80" fill="#fff" font-size="12">cinematic build</text>
+</svg>
+
+<svg width="260" height="140">
+  <rect width="260" height="140" rx="15" fill="#1a1a1a" stroke="#c2a66b"/>
+  <text x="20" y="40" fill="#c2a66b">AI LAB</text>
+  <text x="20" y="80" fill="#fff" font-size="12">voice + automation</text>
 </svg>
 
 </p>
 
 ---
 
-## 🐍 MINI SERPENTS
+## 🛡️ GUARDIANS
 
 <p align="center">
-  <img src="https://media.giphy.com/media/3o7TKMt1VVNkHV2PaE/giphy.gif" width="80"/>
-  <img src="https://media.giphy.com/media/3o7TKMt1VVNkHV2PaE/giphy.gif" width="80"/>
-  <img src="https://media.giphy.com/media/3o7TKMt1VVNkHV2PaE/giphy.gif" width="80"/>
+  🛡️ ⚔️ 🛡️  
+  (systems protected • evolving under control)
 </p>
 
 ---
@@ -73,10 +92,11 @@ status    : evolving
 
 ---
 
-## 🐍 SERPENT LINE
+## 🧿 SYMBOL GRID
 
 <p align="center">
-  <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="300"/>
+  🜁 🜂 🜃 🜄  
+  (air • fire • earth • water)
 </p>
 
 ---
@@ -89,24 +109,32 @@ status    : evolving
 
 ---
 
-## 🐍 FINAL SERPENT
+## 🏺 ARCHIVE
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" />
-</p>
+```txt id="t7q2m1"
+source : github.com/Prithibi17
+mode   : auto-sync
+growth : continuous
+```
+
+🔗 https://github.com/Prithibi17?tab=repositories
 
 ---
 
-## 🕯️ LAW
+## 🕯️ FINAL LAW
 
-```txt id="d9k3s7"
+```txt id="p4z8x0"
 if (ordinary) {
-    consume();
+    burn();
     rebuild();
 }
 ```
 
 ---
+
+<p align="center">
+  🔥 🐍 🦅 ⚔️ 🛡️ 🔥
+</p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Prithibi17&color=c2a66b"/>
