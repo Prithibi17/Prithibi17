@@ -135,7 +135,7 @@
 
 <!-- 🐉 DRAGON GUARDIAN -->
 <div align="center">
-<img src="./assets/dragon.svg" width="100%" alt="Dragon Guardian"/>
+<img src="dragon.svg" width="100%" alt="Dragon Guardian"/>
 </div>
 
 <br/>
@@ -196,7 +196,7 @@
 
 <!-- 🦅 EAGLE DIVIDER -->
 <div align="center">
-<img src="./assets/eagle.svg" width="100%" alt="Eagle Watcher"/>
+<img src="eagle.svg" width="100%" alt="Eagle Watcher"/>
 </div>
 
 <br/>
@@ -235,7 +235,7 @@
 
 <!-- 🦉 OWL DIVIDER -->
 <div align="center">
-<img src="./assets/owl.svg" width="100%" alt="Owl Keeper"/>
+<img src="owl.svg" width="100%" alt="Owl Keeper"/>
 </div>
 
 <br/>
@@ -270,14 +270,14 @@
 
 <!-- 🔥 FIRE CORE -->
 <div align="center">
-<img src="./assets/fire-core.svg" width="100%" alt="Fire Core"/>
+<img src="fire-core.svg" width="100%" alt="Fire Core"/>
 </div>
 
 <br/>
 
 <!-- 🐺 WOLF -->
 <div align="center">
-<img src="./assets/wolf.svg" width="100%" alt="Wolf Witness"/>
+<img src="wolf.svg" width="100%" alt="Wolf Witness"/>
 </div>
 
 <br/>
