@@ -1,116 +1,365 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 140" width="900" height="140">
-  <defs>
-    <radialGradient id="fOuterGlow" cx="50%" cy="55%" r="50%">
-      <stop offset="0%"   stop-color="#D4AF37" stop-opacity="0.35"/>
-      <stop offset="50%"  stop-color="#8B6914" stop-opacity="0.12"/>
-      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="fCoreGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%"   stop-color="#FFD700" stop-opacity="0.95"/>
-      <stop offset="40%"  stop-color="#D4AF37" stop-opacity="0.6"/>
-      <stop offset="100%" stop-color="#8B6914" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="fInnerCore" cx="50%" cy="50%" r="50%">
-      <stop offset="0%"   stop-color="#FFFDE7" stop-opacity="1"/>
-      <stop offset="60%"  stop-color="#FFD700" stop-opacity="0.8"/>
-      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0.4"/>
-    </radialGradient>
-    <filter id="fGlow">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
-    </filter>
-    <filter id="fInnerGlow">
-      <feGaussianBlur stdDeviation="2" result="blur"/>
-      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
-    </filter>
-    <clipPath id="fClip"><rect width="900" height="140"/></clipPath>
-  </defs>
+<!-- ╔══════════════════════════════════════════════════════════════════════════╗ -->
+<!-- ║   ANCIENT ARCHIVE SYSTEM  ·  NODE: PRITHIBI_MANDI  ·  CYCLE: ∞        ║ -->
+<!-- ║   CLEARANCE: MYTHIC  ·  STATUS: AWAKENED  ·  ORIGIN: UNCHARTED        ║ -->
+<!-- ╚══════════════════════════════════════════════════════════════════════════╝ -->
 
-  <!-- Outer pulse rings (expanding) -->
-  <circle cx="450" cy="72" r="42" fill="none" stroke="#D4AF37" stroke-width="0.8" stroke-opacity="0.12">
-    <animate attributeName="r"             values="42;72;42"    dur="4s" begin="0s"   repeatCount="indefinite"/>
-    <animate attributeName="stroke-opacity" values="0.12;0;0.12" dur="4s" begin="0s"   repeatCount="indefinite"/>
-  </circle>
-  <circle cx="450" cy="72" r="42" fill="none" stroke="#D4AF37" stroke-width="0.7" stroke-opacity="0.09">
-    <animate attributeName="r"             values="42;85;42"   dur="4s" begin="0.8s" repeatCount="indefinite"/>
-    <animate attributeName="stroke-opacity" values="0.09;0;0.09" dur="4s" begin="0.8s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="450" cy="72" r="42" fill="none" stroke="#D4AF37" stroke-width="0.5" stroke-opacity="0.06">
-    <animate attributeName="r"             values="42;100;42"  dur="4s" begin="1.6s" repeatCount="indefinite"/>
-    <animate attributeName="stroke-opacity" values="0.06;0;0.06" dur="4s" begin="1.6s" repeatCount="indefinite"/>
-  </circle>
-  <!-- Hex ring -->
-  <polygon points="450,30 485,50 485,90 450,110 415,90 415,50" fill="none" stroke="#D4AF37" stroke-width="0.8" stroke-opacity="0.2">
-    <animateTransform attributeName="transform" type="rotate" values="0,450,72; 360,450,72" dur="20s" repeatCount="indefinite"/>
-    <animate attributeName="stroke-opacity" values="0.2;0.4;0.2" dur="4s" repeatCount="indefinite"/>
-  </polygon>
-  <polygon points="450,20 495,45 495,95 450,120 405,95 405,45" fill="none" stroke="#D4AF37" stroke-width="0.5" stroke-opacity="0.12">
-    <animateTransform attributeName="transform" type="rotate" values="30,450,72; 390,450,72" dur="25s" repeatCount="indefinite"/>
-  </polygon>
+<div align="center">
 
-  <!-- Outer glow -->
-  <circle cx="450" cy="72" r="40" fill="url(#fOuterGlow)" filter="url(#fGlow)">
-    <animate attributeName="r" values="40;50;38;46;40" dur="3s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="1;0.7;1;0.85;1" dur="3s" repeatCount="indefinite"/>
-  </circle>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,9,27,20,24&height=340&section=header&text=PRITHIBI%20MANDI&fontSize=58&fontAlignY=40&animation=fadeIn&fontColor=D4AF37&desc=◈%20%20ANCIENT%20ARCHIVE%20%7C%20SYSTEM%20NODE%20%23∞%20%20◈&descAlignY=60&descSize=16&descColor=B8962E" width="100%"/>
 
-  <!-- Main flame -->
-  <g filter="url(#fGlow)">
-    <!-- outer flame -->
-    <g>
-      <animateTransform attributeName="transform" type="translate" values="450,72; 450,67; 450,72" dur="1.4s" repeatCount="indefinite"/>
-      <path d="M0,-30 Q8,-16 5,0 Q10,-8 14,-20 Q18,-4 12,10 Q18,2 22,8 Q15,22 6,28 Q0,32 -6,28 Q-15,22 -22,8 Q-18,2 -12,10 Q-18,-4 -14,-20 Q-10,-8 -5,0 Q-8,-16 0,-30Z"
-            fill="url(#fCoreGlow)" filter="url(#fInnerGlow)"/>
-    </g>
-    <!-- inner flame -->
-    <g>
-      <animateTransform attributeName="transform" type="translate" values="450,72; 450,66; 450,72" dur="1s" repeatCount="indefinite"/>
-      <path d="M0,-18 Q5,-9 3,0 Q7,-5 9,-12 Q12,-2 7,7 Q11,1 14,5 Q9,14 4,18 Q0,20 -4,18 Q-9,14 -14,5 Q-11,1 -7,7 Q-12,-2 -9,-12 Q-7,-5 -3,0 Q-5,-9 0,-18Z"
-            fill="url(#fInnerCore)"/>
-    </g>
-    <!-- core -->
-    <ellipse cx="450" cy="75" rx="7" ry="5" fill="#FFFDE7" opacity="0.95">
-      <animate attributeName="ry" values="5;8;4;7;5" dur="1s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.95;0.7;1;0.85;0.95" dur="1s" repeatCount="indefinite"/>
-    </ellipse>
-  </g>
+</div>
 
-  <!-- Floating sparks -->
-  <circle cx="438" cy="50" r="2.5" fill="#FFD700" opacity="0">
-    <animate attributeName="cy"      values="72;38;25"  dur="2.2s" begin="0s"    repeatCount="indefinite"/>
-    <animate attributeName="cx"      values="438;432;426" dur="2.2s" begin="0s"    repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0;0.9;0"   dur="2.2s" begin="0s"    repeatCount="indefinite"/>
-    <animate attributeName="r"       values="2.5;1.5;0" dur="2.2s" begin="0s"    repeatCount="indefinite"/>
-  </circle>
-  <circle cx="462" cy="50" r="2" fill="#FFD700" opacity="0">
-    <animate attributeName="cy"      values="72;42;28"  dur="1.9s" begin="0.4s"  repeatCount="indefinite"/>
-    <animate attributeName="cx"      values="462;468;474" dur="1.9s" begin="0.4s"  repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0;0.8;0"   dur="1.9s" begin="0.4s"  repeatCount="indefinite"/>
-    <animate attributeName="r"       values="2;1.2;0"   dur="1.9s" begin="0.4s"  repeatCount="indefinite"/>
-  </circle>
-  <circle cx="450" cy="45" r="1.8" fill="#D4AF37" opacity="0">
-    <animate attributeName="cy"      values="68;40;22"   dur="2.5s" begin="0.9s"  repeatCount="indefinite"/>
-    <animate attributeName="cx"      values="450;444;440" dur="2.5s" begin="0.9s"  repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0;0.7;0"    dur="2.5s" begin="0.9s"  repeatCount="indefinite"/>
-    <animate attributeName="r"       values="1.8;1;0"    dur="2.5s" begin="0.9s"  repeatCount="indefinite"/>
-  </circle>
-  <circle cx="456" cy="50" r="2.2" fill="#D4AF37" opacity="0">
-    <animate attributeName="cy"      values="70;44;30"   dur="2.1s" begin="1.5s"  repeatCount="indefinite"/>
-    <animate attributeName="cx"      values="456;462;466" dur="2.1s" begin="1.5s"  repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0;0.65;0"   dur="2.1s" begin="1.5s"  repeatCount="indefinite"/>
-    <animate attributeName="r"       values="2.2;1.3;0"  dur="2.1s" begin="1.5s"  repeatCount="indefinite"/>
-  </circle>
-  <circle cx="444" cy="52" r="1.5" fill="#FFD700" opacity="0">
-    <animate attributeName="cy"      values="70;46;32"   dur="1.7s" begin="0.2s"  repeatCount="indefinite"/>
-    <animate attributeName="cx"      values="444;438;434" dur="1.7s" begin="0.2s"  repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0;0.75;0"   dur="1.7s" begin="0.2s"  repeatCount="indefinite"/>
-    <animate attributeName="r"       values="1.5;0.8;0"  dur="1.7s" begin="0.2s"  repeatCount="indefinite"/>
-  </circle>
+<br/>
 
-  <!-- Flanking rune text -->
-  <text x="220" y="77" text-anchor="middle" fill="#D4AF37" font-size="10" font-family="monospace" opacity="0.38" letter-spacing="3">◈  THE FORGE NEVER SLEEPS  ◈</text>
-  <text x="680" y="77" text-anchor="middle" fill="#D4AF37" font-size="10" font-family="monospace" opacity="0.38" letter-spacing="3">◈  THE FORGE NEVER SLEEPS  ◈</text>
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=15&duration=2600&pause=1000&color=D4AF37&background=00000000&center=true&vCenter=true&multiline=true&width=760&height=95&lines=%5B%20BOOTING%20ANCIENT%20ARCHIVE%20SYSTEM%20...%20%5D;%5B%20MYTHIC%20CLEARANCE%20GRANTED%20%7C%20RELIC%20CODEX%20LOADED%20%5D;%5B%20SYSTEM%20BUILDER%20%2F%2F%20GAME%20ARCHITECT%20%2F%2F%20STORY%20WEAVER%20%5D;%5B%20UNREAL%20ENGINE%20%7C%20AI%20SYSTEMS%20%7C%20WEB%20PLATFORMS%20%5D" alt="Typing animation"/>
+</div>
 
-  <!-- Inscription -->
-  <text x="450" y="132" text-anchor="middle" fill="#D4AF37" font-size="10" font-family="monospace" opacity="0.4" letter-spacing="5">🔥  CORE OF ALL CREATION  🔥</text>
-</svg>
+<br/>
+
+---
+
+<!-- ██████████████████████  I. ORIGIN  ██████████████████████ -->
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,9&height=46&text=⚔%20%20ORIGIN%20%20⚔&fontSize=16&fontColor=D4AF37&animation=fadeIn" width="860"/>
+
+</div>
+
+<br/>
+
+```
+╔══════════════════════════════════════════════════════════════════════╗
+║  ARCHIVE LOG — RECORD #0001 — ENTITY: PRITHIBI_MANDI               ║
+╠══════════════════════════════════════════════════════════════════════╣
+║  DESIGNATION   : System Builder | Game Architect | Creative Technologist
+║  ORIGIN REALM  : Unreal Engine · AI Systems · Web Platforms · Storytelling
+║  RELIC MASTERY : Code, Craft, Creation
+║  CURRENT STATE : Building worlds. Forging systems. Weaving myth into machine.
+║  POWER UPLINK  : [ ████████████░░ ]  87% — SYSTEMS ACTIVE
+╠══════════════════════════════════════════════════════════════════════╣
+║  // "Not all who build leave blueprints. Some leave worlds."         ║
+╚══════════════════════════════════════════════════════════════════════╝
+```
+
+<br/>
+
+<!-- 🐍 SERPENT DIVIDER -->
+<div align="center">
+<img src="./assets/serpent.svg" width="100%" alt="Serpent Divider"/>
+</div>
+
+<br/>
+
+<!-- ██████████████████████  II. RELIC SYSTEMS  ██████████████████████ -->
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,9&height=46&text=🛡%20%20RELIC%20SYSTEMS%20%20🛡&fontSize=16&fontColor=D4AF37&animation=fadeIn" width="860"/>
+
+</div>
+
+<br/>
+
+<div align="center">
+<table>
+<tr>
+<td align="center" width="265">
+
+```
+╔══ FORGE RELICS ═════════╗
+║                         ║
+║  Unreal Engine  [■■■■░] ║
+║  C++ / Blueprints[■■■░] ║
+║  Game Mechanics [■■■░]  ║
+║  Level Design   [■■■■] ║
+║  Shaders / VFX  [■■░░]  ║
+║                         ║
+╚═════════════════════════╝
+```
+
+</td>
+<td align="center" width="265">
+
+```
+╔══ WEB ARTIFACTS ════════╗
+║                         ║
+║  React / Next.js [■■■■] ║
+║  Node.js         [■■■░] ║
+║  Three.js        [■■■░] ║
+║  TypeScript      [■■■░] ║
+║  Tailwind CSS    [■■■■] ║
+║                         ║
+╚═════════════════════════╝
+```
+
+</td>
+<td align="center" width="265">
+
+```
+╔══ AI SIGILS ════════════╗
+║                         ║
+║  Python          [■■■■] ║
+║  ML Systems      [■■■░] ║
+║  LLM Integration [■■░░] ║
+║  Vision / NLP    [■■░░] ║
+║  Generative AI   [■■■░] ║
+║                         ║
+╚═════════════════════════╝
+```
+
+</td>
+</tr>
+</table>
+</div>
+
+<br/>
+
+<div align="center">
+
+![Unreal Engine](https://img.shields.io/badge/Unreal_Engine-0d1117?style=for-the-badge&logo=unrealengine&logoColor=D4AF37)
+![C++](https://img.shields.io/badge/C++-0d1117?style=for-the-badge&logo=cplusplus&logoColor=D4AF37)
+![Python](https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=D4AF37)
+![React](https://img.shields.io/badge/React-0d1117?style=for-the-badge&logo=react&logoColor=D4AF37)
+![Next.js](https://img.shields.io/badge/Next.js-0d1117?style=for-the-badge&logo=nextdotjs&logoColor=D4AF37)
+![Node.js](https://img.shields.io/badge/Node.js-0d1117?style=for-the-badge&logo=nodedotjs&logoColor=D4AF37)
+![TypeScript](https://img.shields.io/badge/TypeScript-0d1117?style=for-the-badge&logo=typescript&logoColor=D4AF37)
+![Three.js](https://img.shields.io/badge/Three.js-0d1117?style=for-the-badge&logo=threedotjs&logoColor=D4AF37)
+![Blender](https://img.shields.io/badge/Blender-0d1117?style=for-the-badge&logo=blender&logoColor=D4AF37)
+![Git](https://img.shields.io/badge/Git-0d1117?style=for-the-badge&logo=git&logoColor=D4AF37)
+
+</div>
+
+<br/>
+
+<!-- 🐉 DRAGON GUARDIAN -->
+<div align="center">
+<img src="./assets/dragon.svg" width="100%" alt="Dragon Guardian"/>
+</div>
+
+<br/>
+
+<!-- ██████████████████████  III. ARCHIVE  ██████████████████████ -->
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,9&height=46&text=🧿%20%20ARCHIVE%20%20🧿&fontSize=16&fontColor=D4AF37&animation=fadeIn" width="860"/>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<a href="https://github.com/Prithibi17">
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=Prithibi17&show_icons=true&theme=dark&title_color=D4AF37&icon_color=D4AF37&text_color=B8962E&border_color=2A2010&bg_color=0d1117&border_radius=10&hide_border=false&count_private=true&include_all_commits=true&rank_icon=github" alt="GitHub Stats"/>
+</a>
+&nbsp;
+<a href="https://github.com/Prithibi17">
+<img height="180" src="https://streak-stats.demolab.com/?user=Prithibi17&theme=dark&ring=D4AF37&fire=D4AF37&currStreakLabel=D4AF37&sideLabels=B8962E&border=2A2010&background=0d1117&border_radius=10&stroke=D4AF3722" alt="Streak Stats"/>
+</a>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<a href="https://github.com/Prithibi17?tab=achievements">
+<img src="https://github-profile-trophy.vercel.app/?username=Prithibi17&theme=gold&column=7&margin-w=8&margin-h=8&no-bg=true&no-frame=false&rank=SECRET,SSS,SS,S,AAA,AA,A,B" alt="Trophies"/>
+</a>
+
+</div>
+
+<br/>
+
+<!-- ██████████████████████  IV. SCROLL  ██████████████████████ -->
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,9&height=46&text=📜%20%20SCROLL%20%20📜&fontSize=16&fontColor=D4AF37&animation=fadeIn" width="860"/>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<a href="https://github.com/Prithibi17">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prithibi17&layout=compact&theme=dark&title_color=D4AF37&text_color=B8962E&border_color=2A2010&bg_color=0d1117&border_radius=10&langs_count=10&hide_border=false" alt="Top Languages"/>
+</a>
+
+</div>
+
+<br/>
+
+<!-- 🦅 EAGLE DIVIDER -->
+<div align="center">
+<img src="./assets/eagle.svg" width="100%" alt="Eagle Watcher"/>
+</div>
+
+<br/>
+
+<!-- ██████████████████████  V. ENERGY FLOW  ██████████████████████ -->
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,9&height=46&text=🔥%20%20ENERGY%20FLOW%20%20🔥&fontSize=16&fontColor=D4AF37&animation=fadeIn" width="860"/>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<!-- CONTRIBUTION SNAKE -->
+<!-- Activate: Create .github/workflows/snake.yml in this repo (see setup note at bottom) -->
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/Prithibi17/Prithibi17/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Prithibi17/Prithibi17/output/github-contribution-grid-snake.svg"/>
+  <img alt="Contribution Snake" src="https://raw.githubusercontent.com/Prithibi17/Prithibi17/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+</picture>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Prithibi17&bg_color=0d1117&color=D4AF37&line=8B6914&point=D4AF37&area=true&area_color=D4AF3725&hide_border=false&border_color=2A2010&custom_title=⟡%20CHRONICLE%20OF%20COMMITS%20⟡&title_color=D4AF37&radius=10" width="100%" alt="Activity Graph"/>
+
+</div>
+
+<br/>
+
+<!-- 🦉 OWL DIVIDER -->
+<div align="center">
+<img src="./assets/owl.svg" width="100%" alt="Owl Keeper"/>
+</div>
+
+<br/>
+
+<!-- ██████████████████████  VI. FINAL LAW  ██████████████████████ -->
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,9&height=46&text=⚖%20%20FINAL%20LAW%20%20⚖&fontSize=16&fontColor=D4AF37&animation=fadeIn" width="860"/>
+
+</div>
+
+<br/>
+
+```
+╔══════════════════════════════════════════════════════════════════════════╗
+║   INSCRIPTION ON THE ARCHIVE WALL — CYCLE ∞                             ║
+╠══════════════════════════════════════════════════════════════════════════╣
+║                                                                          ║
+║   I.    Every system has a soul. Find it. Code it. Ship it.              ║
+║   II.   A game without story is architecture without inhabitants.        ║
+║   III.  AI is not the tool. The question is the tool.                   ║
+║   IV.   Build not for applause. Build for the ones who will find it      ║
+║         long after you are gone.                                         ║
+║                                                                          ║
+╠══════════════════════════════════════════════════════════════════════════╣
+║   — SIGNED : Prithibi Mandi, Architect of the Unnamed Realm             ║
+╚══════════════════════════════════════════════════════════════════════════╝
+```
+
+<br/>
+
+<!-- 🔥 FIRE CORE -->
+<div align="center">
+<img src="./assets/fire-core.svg" width="100%" alt="Fire Core"/>
+</div>
+
+<br/>
+
+<!-- 🐺 WOLF -->
+<div align="center">
+<img src="./assets/wolf.svg" width="100%" alt="Wolf Witness"/>
+</div>
+
+<br/>
+
+<!-- ██████████████████████  CONNECT PROTOCOL  ██████████████████████ -->
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,9&height=46&text=◈%20%20CONNECT%20PROTOCOL%20%20◈&fontSize=16&fontColor=D4AF37&animation=fadeIn" width="860"/>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GITHUB_ARCHIVE-0d1117?style=for-the-badge&logo=github&logoColor=D4AF37)](https://github.com/Prithibi17)
+&nbsp;
+[![Profile Views](https://komarev.com/ghpvc/?username=Prithibi17&style=for-the-badge&color=0d1117&label=ARCHIVE+VISITS&labelColor=0d1117)](https://github.com/Prithibi17)
+
+</div>
+
+<br/>
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,9,27,20,24&height=130&section=footer&animation=fadeIn" width="100%"/>
+</div>
+
+<!-- ╔══════════════════════════════════════════════════════════════════════════╗ -->
+<!-- ║   END OF ARCHIVE · NODE: PRITHIBI_MANDI · RECORD COUNT: ∞             ║ -->
+<!-- ║   "Worlds are not discovered. They are built."                         ║ -->
+<!-- ╚══════════════════════════════════════════════════════════════════════════╝ -->
+
+<!--
+════════════════════════════════════════════════════════════════
+  ⚠  SETUP GUIDE — DEPLOY IN 3 STEPS
+════════════════════════════════════════════════════════════════
+
+STEP 1 — PROFILE REPO STRUCTURE:
+  Create a public repo named exactly: Prithibi17
+  Upload these files exactly as structured:
+
+  Prithibi17/
+  ├── README.md              ← this file
+  └── assets/
+      ├── serpent.svg
+      ├── dragon.svg
+      ├── eagle.svg
+      ├── owl.svg
+      ├── wolf.svg
+      └── fire-core.svg
+
+STEP 2 — CONTRIBUTION SNAKE:
+  Create file: .github/workflows/snake.yml
+  ────────────────────────────────────────────────────────────
+  name: Generate Snake
+  on:
+    schedule:
+      - cron: "0 0 * * *"
+    workflow_dispatch:
+  jobs:
+    generate:
+      runs-on: ubuntu-latest
+      steps:
+        - uses: Platane/snk@v3
+          with:
+            github_user_name: Prithibi17
+            outputs: |
+              dist/github-contribution-grid-snake.svg
+              dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        - uses: crazy-max/ghaction-github-pages@v3.1.0
+          with:
+            target_branch: output
+            build_dir: dist
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  ────────────────────────────────────────────────────────────
+  Then go to Actions tab → Run workflow (manually trigger once).
+
+STEP 3 — STATS CARDS:
+  All GitHub stats, streaks, trophies, and activity graph
+  update automatically. No setup needed.
+
+════════════════════════════════════════════════════════════════
+-->
