@@ -47,7 +47,7 @@
 
 <!-- 🐍 SERPENT DIVIDER -->
 <div align="center">
-<img src="./assets/serpent.svg" width="100%" alt="Serpent Divider"/>
+<img src="serpent.svg" width="100%" alt="Serpent Divider"/>
 </div>
 
 <br/>
