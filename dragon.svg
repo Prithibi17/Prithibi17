@@ -1,106 +1,146 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 160" width="900" height="160">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" width="900" height="200">
   <defs>
-    <radialGradient id="wMoonGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%"   stop-color="#D4AF37" stop-opacity="0.18"/>
-      <stop offset="70%"  stop-color="#D4AF37" stop-opacity="0.06"/>
+    <radialGradient id="dAura" cx="50%" cy="60%" r="45%">
+      <stop offset="0%"   stop-color="#D4AF37" stop-opacity="0.22"/>
+      <stop offset="60%"  stop-color="#8B6914" stop-opacity="0.08"/>
       <stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="wGroundGlow" cx="50%" cy="30%" r="60%">
-      <stop offset="0%"   stop-color="#D4AF37" stop-opacity="0.2"/>
-      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/>
+    <radialGradient id="dFireGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#FFD700" stop-opacity="0.7"/>
+      <stop offset="50%"  stop-color="#D4AF37" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#8B6914" stop-opacity="0"/>
     </radialGradient>
-    <filter id="wGlow">
+    <radialGradient id="dEyeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#FFD700" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0.5"/>
+    </radialGradient>
+    <filter id="dGlow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="dEyeFilter">
       <feGaussianBlur stdDeviation="2" result="blur"/>
       <feComposite in="SourceGraphic" in2="blur" operator="over"/>
     </filter>
   </defs>
 
-  <!-- Divider lines -->
-  <line x1="0"   y1="80" x2="330" y2="80" stroke="#D4AF37" stroke-width="0.6" stroke-opacity="0.2"/>
-  <line x1="570" y1="80" x2="900" y2="80" stroke="#D4AF37" stroke-width="0.6" stroke-opacity="0.2"/>
-
-  <!-- Moon behind wolf -->
-  <circle cx="450" cy="40" r="28" fill="url(#wMoonGlow)" stroke="#D4AF37" stroke-width="0.8" stroke-opacity="0.2">
-    <animate attributeName="r" values="28;34;28" dur="5s" repeatCount="indefinite"/>
-    <animate attributeName="stroke-opacity" values="0.2;0.4;0.2" dur="5s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="450" cy="40" r="22" fill="none" stroke="#D4AF37" stroke-width="0.5" stroke-opacity="0.15"/>
-
-  <!-- Ground glow -->
-  <ellipse cx="450" cy="135" rx="90" ry="12" fill="url(#wGroundGlow)">
-    <animate attributeName="rx" values="90;110;90" dur="4s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="1;0.5;1" dur="4s" repeatCount="indefinite"/>
+  <!-- Background aura pulse -->
+  <ellipse cx="450" cy="115" rx="180" ry="60" fill="url(#dAura)">
+    <animate attributeName="rx" values="180;220;180" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="ry" values="60;75;60" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.6;1" dur="5s" repeatCount="indefinite"/>
   </ellipse>
 
-  <!-- Wolf silhouette -->
-  <g filter="url(#wGlow)">
-    <!-- pulse breath -->
-    <animateTransform attributeName="transform" type="scale" values="1,1; 1.012,1.012; 1,1" dur="4s" additive="sum" repeatCount="indefinite"/>
-    <animateTransform attributeName="transform" type="translate" values="450,80; 444.6,79.1; 450,80" dur="4s" additive="sum" repeatCount="indefinite"/>
+  <!-- Fire breath glow (behind head) -->
+  <ellipse cx="298" cy="78" rx="35" ry="18" fill="url(#dFireGlow)">
+    <animate attributeName="rx" values="35;50;30;45;35" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;1;0.4;0.9;0.6" dur="3s" repeatCount="indefinite"/>
+  </ellipse>
+  <!-- Fire sparks -->
+  <circle cx="265" cy="72" r="3" fill="#FFD700" opacity="0.8">
+    <animate attributeName="cx"      values="265;245;260;250;265" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="cy"      values="72;65;58;70;72" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.8;1;0.3;0.7;0.8" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="r"       values="3;5;2;4;3" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="258" cy="68" r="2" fill="#D4AF37" opacity="0.6">
+    <animate attributeName="cx"      values="258;238;253;243;258" dur="2.3s" repeatCount="indefinite"/>
+    <animate attributeName="cy"      values="68;60;52;63;68" dur="2.3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.9;0.1;0.5;0.6" dur="2.3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="270" cy="80" r="2.5" fill="#FFD700" opacity="0.5">
+    <animate attributeName="cx"      values="270;250;265;248;270" dur="1.8s" repeatCount="indefinite"/>
+    <animate attributeName="cy"      values="80;73;63;75;80" dur="1.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0.8;0.1;0.4;0.5" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
 
-    <!-- BODY -->
-    <ellipse cx="450" cy="108" rx="46" ry="22" fill="none" stroke="#D4AF37" stroke-width="2" stroke-opacity="0.8"/>
-    <!-- fur texture lines on back -->
-    <path d="M418,88 Q430,82 442,86 Q454,80 466,84 Q478,78 488,82" fill="none" stroke="#D4AF37" stroke-width="1" stroke-opacity="0.35"/>
-    <path d="M420,94 Q432,88 444,92 Q456,86 468,90 Q480,84 490,88" fill="none" stroke="#D4AF37" stroke-width="0.8" stroke-opacity="0.28"/>
+  <!-- Main dragon group — floating up and down -->
+  <g filter="url(#dGlow)">
+    <animateTransform attributeName="transform" type="translate" values="0,0; 0,-14; 0,0" dur="5s" calcMode="spline" keySplines="0.45,0,0.55,1; 0.45,0,0.55,1" repeatCount="indefinite"/>
 
-    <!-- TAIL (raised up) -->
-    <path d="M496,108 Q522,95 534,78 Q540,65 530,60 Q524,58 520,65 Q516,72 522,78" fill="none" stroke="#D4AF37" stroke-width="2.2" stroke-opacity="0.72" stroke-linecap="round" stroke-linejoin="round"/>
-    <!-- tail fur -->
-    <path d="M534,78 Q542,70 536,62" fill="none" stroke="#D4AF37" stroke-width="1.2" stroke-opacity="0.4"/>
-    <path d="M530,60 Q525,52 518,56" fill="none" stroke="#D4AF37" stroke-width="1" stroke-opacity="0.35"/>
+    <!-- === TAIL === -->
+    <path d="M568,130 Q600,115 625,135 Q645,152 630,168 Q614,182 598,170 Q585,158 595,148 Q605,140 612,150" fill="none" stroke="#D4AF37" stroke-width="2.2" stroke-opacity="0.75" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M568,130 Q580,120 590,128" fill="none" stroke="#D4AF37" stroke-width="3" stroke-opacity="0.7"/>
 
-    <!-- BACK LEGS -->
-    <path d="M422,126 Q418,136 415,148" fill="none" stroke="#D4AF37" stroke-width="2.5" stroke-opacity="0.65" stroke-linecap="round"/>
-    <path d="M415,148 L408,155 M415,148 L416,156 M415,148 L422,154" fill="none" stroke="#D4AF37" stroke-width="1.4" stroke-opacity="0.55"/>
-    <!-- knee joint -->
-    <circle cx="418" cy="136" r="2.5" fill="none" stroke="#D4AF37" stroke-width="1" stroke-opacity="0.4"/>
+    <!-- === BODY TORSO === -->
+    <ellipse cx="490" cy="128" rx="82" ry="30" fill="none" stroke="#D4AF37" stroke-width="2" stroke-opacity="0.85"/>
+    <!-- belly scale lines -->
+    <path d="M420,135 Q450,145 480,135 Q510,125 540,135 Q555,140 568,132" fill="none" stroke="#D4AF37" stroke-width="1" stroke-opacity="0.35"/>
+    <path d="M425,140 Q455,150 485,140 Q515,130 545,140" fill="none" stroke="#D4AF37" stroke-width="0.8" stroke-opacity="0.25"/>
+    <!-- dorsal spikes -->
+    <path d="M440,100 L432,80 M460,97 L455,75 M480,96 L478,73 M500,97 L502,76 M520,100 L526,80 M540,105 L548,86" fill="none" stroke="#D4AF37" stroke-width="1.5" stroke-opacity="0.65"/>
 
-    <path d="M464,126 Q462,136 460,148" fill="none" stroke="#D4AF37" stroke-width="2.5" stroke-opacity="0.65" stroke-linecap="round"/>
-    <path d="M460,148 L453,155 M460,148 L461,157 M460,148 L467,154" fill="none" stroke="#D4AF37" stroke-width="1.4" stroke-opacity="0.55"/>
-    <circle cx="462" cy="136" r="2.5" fill="none" stroke="#D4AF37" stroke-width="1" stroke-opacity="0.4"/>
+    <!-- === NECK === -->
+    <path d="M418,105 Q400,88 382,75 Q368,65 358,68" fill="none" stroke="#D4AF37" stroke-width="14" stroke-opacity="0.18" stroke-linecap="round"/>
+    <path d="M418,105 Q400,88 382,75 Q368,65 358,68" fill="none" stroke="#D4AF37" stroke-width="2.5" stroke-opacity="0.8" stroke-linecap="round"/>
+    <!-- neck scales -->
+    <path d="M408,100 Q402,92 396,96" fill="none" stroke="#D4AF37" stroke-width="1" stroke-opacity="0.45"/>
+    <path d="M395,90 Q388,82 382,86" fill="none" stroke="#D4AF37" stroke-width="1" stroke-opacity="0.45"/>
+    <path d="M380,78 Q373,72 367,76" fill="none" stroke="#D4AF37" stroke-width="1" stroke-opacity="0.45"/>
 
-    <!-- NECK (extended upward, howling) -->
-    <path d="M424,90 Q428,72 436,55 Q440,44 444,34" fill="none" stroke="#D4AF37" stroke-width="12" stroke-opacity="0.08" stroke-linecap="round"/>
-    <path d="M424,90 Q428,72 436,55 Q440,44 444,34" fill="none" stroke="#D4AF37" stroke-width="2.4" stroke-opacity="0.8" stroke-linecap="round"/>
-    <!-- throat -->
-    <path d="M436,88 Q432,70 437,52" fill="none" stroke="#D4AF37" stroke-width="1" stroke-opacity="0.35"/>
-
-    <!-- HEAD (tilted upward howling) -->
-    <ellipse cx="446" cy="28" rx="16" ry="13" transform="rotate(-15,446,28)" fill="#0d1117" stroke="#D4AF37" stroke-width="1.8" stroke-opacity="0.9"/>
-    <!-- muzzle (open for howl) -->
-    <path d="M432,32 Q436,38 444,37 Q450,36 452,30" fill="#0d1117" stroke="#D4AF37" stroke-width="1.4" stroke-opacity="0.8"/>
-    <!-- upper muzzle line -->
-    <path d="M432,30 Q436,26 444,28 Q450,30 452,28" fill="none" stroke="#D4AF37" stroke-width="1.2" stroke-opacity="0.7"/>
-    <!-- nose -->
-    <path d="M430,28 Q432,25 434,28 Q432,30 430,28 Z" fill="#D4AF37" fill-opacity="0.6"/>
-    <!-- ear 1 -->
-    <path d="M450,18 L456,4  L462,17" fill="none" stroke="#D4AF37" stroke-width="1.8" stroke-opacity="0.85" stroke-linejoin="round"/>
-    <!-- ear 2 -->
-    <path d="M440,16 L444,4  L450,16" fill="none" stroke="#D4AF37" stroke-width="1.5" stroke-opacity="0.7"  stroke-linejoin="round"/>
-    <!-- eye (looking up) -->
-    <ellipse cx="447" cy="24" rx="4" ry="3.5" fill="#0d1117" stroke="#D4AF37" stroke-width="1"/>
-    <ellipse cx="448" cy="24" rx="2.5" ry="3" fill="#D4AF37" opacity="0.9">
-      <animate attributeName="opacity" values="0.9;0.5;0.9" dur="3s" repeatCount="indefinite"/>
+    <!-- === HEAD === -->
+    <!-- jaw lower -->
+    <path d="M320,80 Q338,90 358,85 Q370,82 375,72" fill="#0d1117" stroke="#D4AF37" stroke-width="1.6" stroke-opacity="0.8" fill-opacity="0.6"/>
+    <!-- head upper -->
+    <path d="M320,80 Q330,62 350,58 Q368,55 378,65 Q383,72 375,72" fill="#0d1117" stroke="#D4AF37" stroke-width="2" stroke-opacity="0.9" fill-opacity="0.6"/>
+    <!-- snout tip -->
+    <path d="M320,80 L304,76 L318,70 Z" fill="#D4AF37" fill-opacity="0.3" stroke="#D4AF37" stroke-width="1.2" stroke-opacity="0.75"/>
+    <!-- upper jaw serration -->
+    <path d="M305,74 L300,68 M310,72 L306,65 M316,70 L313,63" fill="none" stroke="#D4AF37" stroke-width="1" stroke-opacity="0.5"/>
+    <!-- nostril -->
+    <ellipse cx="308" cy="74" rx="2.5" ry="1.5" fill="#D4AF37" opacity="0.6"/>
+    <!-- eye -->
+    <ellipse cx="348" cy="64" rx="9" ry="7" fill="#0d1117" stroke="#D4AF37" stroke-width="1.5"/>
+    <ellipse cx="349" cy="64" rx="4.5" ry="6" fill="url(#dEyeGlow)" filter="url(#dEyeFilter)">
+      <animate attributeName="opacity" values="1;0.5;1;1;0.8;1" dur="4s" repeatCount="indefinite"/>
     </ellipse>
-    <!-- fur on forehead -->
-    <path d="M436,16 Q444,10 452,14" fill="none" stroke="#D4AF37" stroke-width="0.8" stroke-opacity="0.3"/>
+    <circle cx="346" cy="62" r="1.5" fill="white" opacity="0.4"/>
+    <!-- brow ridge -->
+    <path d="M340,57 Q348,53 358,57" fill="none" stroke="#D4AF37" stroke-width="1.5" stroke-opacity="0.7"/>
+    <!-- top head horn -->
+    <path d="M355,55 L360,38 L365,55" fill="none" stroke="#D4AF37" stroke-width="1.5" stroke-opacity="0.8"/>
+    <path d="M345,58 L347,46 L352,58" fill="none" stroke="#D4AF37" stroke-width="1.2" stroke-opacity="0.6"/>
+    <!-- mouth line -->
+    <path d="M304,76 Q318,82 340,80 Q355,78 358,75" fill="none" stroke="#D4AF37" stroke-width="1.2" stroke-opacity="0.7"/>
+
+    <!-- === FRONT LEGS === -->
+    <path d="M440,155 Q435,168 430,178" fill="none" stroke="#D4AF37" stroke-width="2.5" stroke-opacity="0.7" stroke-linecap="round"/>
+    <path d="M430,178 L424,186 M430,178 L434,187 M430,178 L437,185" fill="none" stroke="#D4AF37" stroke-width="1.5" stroke-opacity="0.6"/>
+    <!-- === BACK LEGS === -->
+    <path d="M530,155 Q528,168 525,178" fill="none" stroke="#D4AF37" stroke-width="2.5" stroke-opacity="0.7" stroke-linecap="round"/>
+    <path d="M525,178 L519,186 M525,178 L529,187 M525,178 L534,185" fill="none" stroke="#D4AF37" stroke-width="1.5" stroke-opacity="0.6"/>
+
+    <!-- === LEFT WING (animated) === -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="0,460,110; -18,460,110; 0,460,110" dur="5s" calcMode="spline" keySplines="0.45,0,0.55,1; 0.45,0,0.55,1" repeatCount="indefinite"/>
+      <!-- wing membrane -->
+      <path d="M460,110 Q390,60 310,45 Q340,90 380,115 Q420,118 460,110 Z" fill="#D4AF37" fill-opacity="0.07" stroke="#D4AF37" stroke-width="1.5" stroke-opacity="0.7"/>
+      <!-- wing spars -->
+      <path d="M460,110 Q400,75 320,50" fill="none" stroke="#D4AF37" stroke-width="1.5" stroke-opacity="0.65"/>
+      <path d="M460,110 Q410,80 340,62" fill="none" stroke="#D4AF37" stroke-width="1.2" stroke-opacity="0.5"/>
+      <path d="M460,110 Q415,88 355,78" fill="none" stroke="#D4AF37" stroke-width="1" stroke-opacity="0.4"/>
+      <!-- wing claw tips -->
+      <circle cx="310" cy="45" r="3.5" fill="#D4AF37" opacity="0.55"/>
+      <circle cx="340" cy="62" r="2.5" fill="#D4AF37" opacity="0.45"/>
+      <circle cx="355" cy="78" r="2" fill="#D4AF37" opacity="0.35"/>
+    </g>
+
+    <!-- === RIGHT WING (animated) === -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="0,520,110; 18,520,110; 0,520,110" dur="5s" calcMode="spline" keySplines="0.45,0,0.55,1; 0.45,0,0.55,1" repeatCount="indefinite"/>
+      <!-- wing membrane -->
+      <path d="M520,110 Q590,60 670,45 Q640,90 600,115 Q560,118 520,110 Z" fill="#D4AF37" fill-opacity="0.07" stroke="#D4AF37" stroke-width="1.5" stroke-opacity="0.7"/>
+      <!-- wing spars -->
+      <path d="M520,110 Q580,75 660,50" fill="none" stroke="#D4AF37" stroke-width="1.5" stroke-opacity="0.65"/>
+      <path d="M520,110 Q570,80 640,62" fill="none" stroke="#D4AF37" stroke-width="1.2" stroke-opacity="0.5"/>
+      <path d="M520,110 Q565,88 625,78" fill="none" stroke="#D4AF37" stroke-width="1" stroke-opacity="0.4"/>
+      <!-- wing claw tips -->
+      <circle cx="660" cy="50" r="3.5" fill="#D4AF37" opacity="0.55"/>
+      <circle cx="640" cy="62" r="2.5" fill="#D4AF37" opacity="0.45"/>
+      <circle cx="625" cy="78" r="2" fill="#D4AF37" opacity="0.35"/>
+    </g>
   </g>
 
-  <!-- HOWL BREATH RINGS -->
-  <circle cx="424" cy="12" r="5" fill="none" stroke="#D4AF37" stroke-width="1.2">
-    <animate attributeName="r"             values="5;18;5"   dur="2.4s" begin="0s"    repeatCount="indefinite"/>
-    <animate attributeName="stroke-opacity" values="0.7;0;0.7" dur="2.4s" begin="0s"    repeatCount="indefinite"/>
-  </circle>
-  <circle cx="424" cy="12" r="5" fill="none" stroke="#D4AF37" stroke-width="0.9">
-    <animate attributeName="r"             values="5;22;5"   dur="2.4s" begin="0.6s"  repeatCount="indefinite"/>
-    <animate attributeName="stroke-opacity" values="0.5;0;0.5" dur="2.4s" begin="0.6s"  repeatCount="indefinite"/>
-  </circle>
-  <circle cx="424" cy="12" r="5" fill="none" stroke="#D4AF37" stroke-width="0.7">
-    <animate attributeName="r"             values="5;28;5"   dur="2.4s" begin="1.2s"  repeatCount="indefinite"/>
-    <animate attributeName="stroke-opacity" values="0.3;0;0.3" dur="2.4s" begin="1.2s"  repeatCount="indefinite"/>
-  </circle>
-
-  <!-- Inscription -->
-  <text x="450" y="154" text-anchor="middle" fill="#D4AF37" font-size="10" font-family="monospace" opacity="0.4" letter-spacing="5">🐺  LONE WITNESS TO ALL THAT IS BUILT  🐺</text>
+  <!-- Rune inscription -->
+  <text x="450" y="192" text-anchor="middle" fill="#D4AF37" font-size="10" font-family="monospace" opacity="0.4" letter-spacing="6">🐉  GUARDIAN OF THE ANCIENT ARCHIVE  🐉</text>
 </svg>
