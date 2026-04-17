@@ -1,114 +1,89 @@
-<!-- SYSTEM BOOT HEADER -->
+<p align="center">
+  <img src="https://i.ibb.co/3s9wK0M/ancient-stone-texture.jpg" width="100%" />
+</p>
 
-<h1 align="center">[ PRITHIBI // CORE INTERFACE ]</h1>
+<h1 align="center">𓂀 PRITHIBI // ARCHIVE 𓂀</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=18&duration=2200&color=00F0FF&center=true&vCenter=true&width=650&lines=initializing+system...;syncing+repositories...;AI+modules+loaded;interface+ready" />
+  <i>etched in time • executed in code</i>
 </p>
 
 ---
 
-## ▌ SYSTEM CORE
+## 🏛️ ▌THE ORIGIN
 
-```bash
-> init.user()
-
-id          = "Prithibi Mandi"
-class       = "Architect / Developer"
-build       = "Systems + Games + Web"
-state       = "Active"
-engine      = "Self-evolving"
+```txt id="a1x92p"
+name      : Prithibi Mandi
+title     : Architect of Systems
+domain    : Games • Web • Intelligence
+state     : Active
+essence   : Creation through logic & design
 ```
 
 ---
 
-## ▌ MODULE STATUS
+## ⚒️ ▌CURRENT WORKS
 
-```bash
-> load.modules()
-
-[✓] language_engine      → adaptive learning system
-[✓] unreal_simulation    → cinematic world building
-[✓] portfolio_core      → interactive UI system
-[✓] ai_lab              → voice / detection / automation
+```txt id="w8f2kq"
+• forging a language system (adaptive & evolving)
+• shaping a world within unreal engine
+• constructing a digital portfolio (artifact-grade UI)
+• exploring artificial intelligence & voice systems
 ```
 
 ---
 
-## ▌ TECH MATRIX
+## 🧿 ▌TOOLS OF CRAFT
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,python,cpp,java,react,nodejs,tailwind,unreal,git,vscode&perline=6" />
+  <img src="https://skillicons.dev/icons?i=js,ts,python,cpp,java,react,nodejs,tailwind,unreal,git,vscode" />
 </p>
 
 ---
 
-## ▌ LIVE METRICS
+## 📜 ▌SCROLL OF ACTIVITY
 
 <p align="center">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=Prithibi17&show_icons=true&theme=tokyonight&hide_border=true&bg_color=000000" />
-  <img height="160em" src="https://github-readme-streak-stats.herokuapp.com/?user=Prithibi17&theme=tokyonight&hide_border=true&background=000000" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Prithibi17&theme=react-dark&hide_border=true&bg_color=1a1a1a&line=c2a66b&point=ffffff" />
 </p>
 
 ---
 
-## ▌ REALTIME ACTIVITY
+## ⚖️ ▌BALANCE OF LANGUAGES
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Prithibi17&theme=react-dark&bg_color=000000&hide_border=true&line=00F0FF&point=FFFFFF" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prithibi17&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1a1a" />
 </p>
 
 ---
 
-## ▌ LANGUAGE DISTRIBUTION
+## 🏺 ▌REPOSITORY ARCHIVE
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prithibi17&layout=compact&theme=tokyonight&hide_border=true&bg_color=000000" />
-</p>
-
----
-
-## ▌ AUTO PROJECT INDEX
-
-```bash
-> fetch.live.projects()
-
-source = "github.com/Prithibi17"
-
-status = "dynamic"
-mode   = "auto-sync"
+```txt id="k3lm0z"
+source : github.com/Prithibi17
+state  : ever-expanding
+mode   : self-updating
 ```
 
 🔗 https://github.com/Prithibi17?tab=repositories
 
 ---
 
-## ▌ SIGNAL CHANNEL
+## 🕯️ ▌PHILOSOPHY
 
-```bash
-> connection.open()
-
-state      = "online"
-protocol   = "async"
-objective  = "build things beyond expectations"
-```
+> what is built shall remain.
+> what is ordinary shall fade.
 
 ---
 
-## ▌ EXECUTION LOGIC
+## 🛡️ ▌LEGACY METRICS
 
-```bash
-> run.philosophy()
-
-while (true) {
-    if (output == "ordinary") {
-        upgrade();
-    }
-}
-```
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Prithibi17&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1a1a" />
+</p>
 
 ---
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Prithibi17&color=00F0FF&style=flat" />
+  <img src="https://komarev.com/ghpvc/?username=Prithibi17&color=c2a66b&style=flat" />
 </p>
