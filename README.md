@@ -1,18 +1,77 @@
-# 💫 About Me:
-I am a student <br>i am  working on a browser
-
-
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/prithibi-mandi/) 
-
-# 💻 Tech Stack:
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=Prithibi17&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://streak-stats.demolab.com/?user=Prithibi17&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=Prithibi17&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+<h1 align="center">Hi 👋, I'm Prithibi (Mandi)</h1>
+<h3 align="center">🚀 Developer | 🎮 Game Creator | 🎨 Creative Builder</h3>
 
 ---
-[![](https://komarev.com/ghpvc/?username=Prithibi17&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## 🧠 About Me
+- 🎮 Solo Game Developer (Unreal Engine 5)
+- 🌊 Working on a **AAA underwater world game**
+- 🎥 Content Creator (YouTube Shorts + Edits)
+- 🎙️ Voice-over Artist
+- 🌐 Building **advanced web apps & platforms**
+- 🎨 Anime-style designer (animo.x06)
+
+---
+
+## ⚡ Tech & Tools
+### 💻 Languages
+![Languages](https://skillicons.dev/icons?i=js,ts,python,cpp,java)
+
+### 🧠 Frameworks & Tools
+![Tools](https://skillicons.dev/icons?i=react,nodejs,express,tailwind,unreal,git,github,vscode)
+
+---
+
+## 📊 GitHub Stats (Auto-Updated)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Prithibi17&show_icons=true&theme=tokyonight" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Prithibi17&theme=tokyonight" />
+</p>
+
+---
+
+## 📈 Activity Graph (Live)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Prithibi17&theme=tokyo-night)](https://github.com/Prithibi17)
+
+---
+
+## 🏆 Top Languages
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prithibi17&layout=compact&theme=tokyonight" />
+</p>
+
+---
+
+## 🔥 Current Focus
+- 🧩 Building a **Duolingo-style Language Learning App**
+- 🎮 Developing a **Story-driven Unreal Engine Game**
+- 🌐 Creating a **Portfolio Website (Iron-Man Inspired UI)**
+- 🤖 Exploring AI (Voice Detection, Automation)
+
+---
+
+## 📌 Featured Projects
+> These update automatically based on your repos
+
+- 🔗 https://github.com/Prithibi17?tab=repositories
+
+---
+
+## 🌍 Connect With Me
+- 📧 (Add your email here)
+- 🎥 YouTube (Coming Soon)
+- 🎧 SoundCloud (Music Projects)
+
+---
+
+## 🧠 Fun Fact
+> I build things that mix **technology + creativity + storytelling**
+
+---
+
+## ⚡ Quote
+> "Build like no one is watching. Ship like the world is."
+
+---
+
+⭐️ From [Prithibi17](https://github.com/Prithibi17)
