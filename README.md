@@ -1,36 +1,36 @@
-<!-- SYSTEM HEADER -->
+<!-- SYSTEM BOOT HEADER -->
 
-<h1 align="center">[ PRITHIBI // SYSTEM ]</h1>
+<h1 align="center">[ PRITHIBI // CORE INTERFACE ]</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=18&duration=2500&color=00F0FF&center=true&vCenter=true&width=600&lines=booting+profile...;loading+modules...;developer+detected;systems+online" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=18&duration=2200&color=00F0FF&center=true&vCenter=true&width=650&lines=initializing+system...;syncing+repositories...;AI+modules+loaded;interface+ready" />
 </p>
 
 ---
 
-## ▌ CORE PROFILE
+## ▌ SYSTEM CORE
 
 ```bash
-> user.load()
+> init.user()
 
-name        = "Prithibi Mandi"
-type        = "Builder"
-speciality  = ["Systems", "Games", "Web"]
-status      = "Active"
-version     = "v2.0 (evolving)"
+id          = "Prithibi Mandi"
+class       = "Architect / Developer"
+build       = "Systems + Games + Web"
+state       = "Active"
+engine      = "Self-evolving"
 ```
 
 ---
 
-## ▌ ACTIVE MODULES
+## ▌ MODULE STATUS
 
 ```bash
-> modules.run()
+> load.modules()
 
-[✓] language_system      → adaptive learning engine
-[✓] unreal_world         → story-driven environment
-[✓] portfolio_engine     → product-like interface
-[✓] ai_experiments       → voice / automation / detection
+[✓] language_engine      → adaptive learning system
+[✓] unreal_simulation    → cinematic world building
+[✓] portfolio_core      → interactive UI system
+[✓] ai_lab              → voice / detection / automation
 ```
 
 ---
@@ -43,7 +43,7 @@ version     = "v2.0 (evolving)"
 
 ---
 
-## ▌ LIVE SYSTEM METRICS
+## ▌ LIVE METRICS
 
 <p align="center">
   <img height="160em" src="https://github-readme-stats.vercel.app/api?username=Prithibi17&show_icons=true&theme=tokyonight&hide_border=true&bg_color=000000" />
@@ -52,7 +52,7 @@ version     = "v2.0 (evolving)"
 
 ---
 
-## ▌ ACTIVITY STREAM
+## ▌ REALTIME ACTIVITY
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Prithibi17&theme=react-dark&bg_color=000000&hide_border=true&line=00F0FF&point=FFFFFF" />
@@ -68,36 +68,42 @@ version     = "v2.0 (evolving)"
 
 ---
 
-## ▌ PROJECT INDEX
+## ▌ AUTO PROJECT INDEX
 
 ```bash
-> fetch.repositories()
+> fetch.live.projects()
 
-dynamic source:
-https://github.com/Prithibi17?tab=repositories
+source = "github.com/Prithibi17"
+
+status = "dynamic"
+mode   = "auto-sync"
+```
+
+🔗 https://github.com/Prithibi17?tab=repositories
+
+---
+
+## ▌ SIGNAL CHANNEL
+
+```bash
+> connection.open()
+
+state      = "online"
+protocol   = "async"
+objective  = "build things beyond expectations"
 ```
 
 ---
 
-## ▌ SIGNAL
+## ▌ EXECUTION LOGIC
 
 ```bash
-> connection.status()
+> run.philosophy()
 
-state  = "open"
-mode   = "async"
-intent = "build something that shouldn't exist"
-```
-
----
-
-## ▌ FINAL NOTE
-
-```bash
-> philosophy.execute()
-
-if (ordinary == true) {
-    rebuild();
+while (true) {
+    if (output == "ordinary") {
+        upgrade();
+    }
 }
 ```
 
