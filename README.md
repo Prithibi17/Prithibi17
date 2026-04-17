@@ -1,77 +1,93 @@
-<h1 align="center">Hi 👋, I'm Prithibi (Mandi)</h1>
-<h3 align="center">🚀 Developer | 🎮 Game Creator | 🎨 Creative Builder</h3>
+<!-- PROFILE HEADER -->
 
----
-
-## 🧠 About Me
-- 🎮 Solo Game Developer (Unreal Engine 5)
-- 🌊 Working on a **AAA underwater world game**
-- 🎥 Content Creator (YouTube Shorts + Edits)
-- 🎙️ Voice-over Artist
-- 🌐 Building **advanced web apps & platforms**
-- 🎨 Anime-style designer (animo.x06)
-
----
-
-## ⚡ Tech & Tools
-### 💻 Languages
-![Languages](https://skillicons.dev/icons?i=js,ts,python,cpp,java)
-
-### 🧠 Frameworks & Tools
-![Tools](https://skillicons.dev/icons?i=react,nodejs,express,tailwind,unreal,git,github,vscode)
-
----
-
-## 📊 GitHub Stats (Auto-Updated)
+<h1 align="center">PRITHIBI</h1>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Prithibi17&show_icons=true&theme=tokyonight" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Prithibi17&theme=tokyonight" />
+  <i>building systems, worlds, and things that probably shouldn't exist</i>
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=22&duration=3000&color=00F0FF&center=true&vCenter=true&width=500&lines=Developer;Game+Creator;System+Builder;Creative+Technologist" />
 </p>
 
 ---
 
-## 📈 Activity Graph (Live)
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Prithibi17&theme=tokyo-night)](https://github.com/Prithibi17)
+## // identity
+
+```txt
+name        : Prithibi Mandi
+role        : builder / developer / creator
+focus       : games + systems + web
+approach    : minimal outside, complex inside
+```
 
 ---
 
-## 🏆 Top Languages
+## // what I'm doing right now
+
+* building a language learning system (adaptive + structured)
+* creating a story-driven unreal engine world
+* designing a portfolio that feels like a real product, not a website
+* experimenting with AI + voice + automation
+
+---
+
+## // stack
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prithibi17&layout=compact&theme=tokyonight" />
+  <img src="https://skillicons.dev/icons?i=js,ts,python,cpp,java,react,nodejs,tailwind,unreal,git,vscode" />
 </p>
 
 ---
 
-## 🔥 Current Focus
-- 🧩 Building a **Duolingo-style Language Learning App**
-- 🎮 Developing a **Story-driven Unreal Engine Game**
-- 🌐 Creating a **Portfolio Website (Iron-Man Inspired UI)**
-- 🤖 Exploring AI (Voice Detection, Automation)
+## // system stats (live)
+
+<p align="center">
+  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=Prithibi17&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" />
+  <img height="160em" src="https://github-readme-streak-stats.herokuapp.com/?user=Prithibi17&theme=tokyonight&hide_border=true&background=0d1117" />
+</p>
 
 ---
 
-## 📌 Featured Projects
-> These update automatically based on your repos
+## // activity feed
 
-- 🔗 https://github.com/Prithibi17?tab=repositories
-
----
-
-## 🌍 Connect With Me
-- 📧 (Add your email here)
-- 🎥 YouTube (Coming Soon)
-- 🎧 SoundCloud (Music Projects)
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Prithibi17&theme=react-dark&bg_color=0d1117&hide_border=true&line=00F0FF&point=FFFFFF" />
+</p>
 
 ---
 
-## 🧠 Fun Fact
-> I build things that mix **technology + creativity + storytelling**
+## // languages I actually use
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prithibi17&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" />
+</p>
 
 ---
 
-## ⚡ Quote
-> "Build like no one is watching. Ship like the world is."
+## // projects
+
+not listing static projects here.
+this updates automatically ↓
+
+🔗 https://github.com/Prithibi17?tab=repositories
 
 ---
 
-⭐️ From [Prithibi17](https://github.com/Prithibi17)
+## // contact
+
+```txt
+status : open to building interesting things
+mode   : async
+```
+
+---
+
+## // philosophy
+
+> if it feels ordinary, it's not done yet.
+
+---
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Prithibi17&color=0d1117&style=flat" />
+</p>
