@@ -12,7 +12,7 @@
   <img src="https://img.shields.io/badge/GitHub-Profile-58A6FF?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
-<a href="https://your-portfolio-link.com">
+<a href="https://prithibimandi.insforge.site">
   <img src="https://img.shields.io/badge/Portfolio-Website-0d1117?style=for-the-badge&logo=googlechrome&logoColor=white"/>
 </a>
 
