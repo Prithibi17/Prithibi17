@@ -8,10 +8,14 @@
 
 <br><br>
 
-<a href="https://github.com/Prithibi17"> </a>
-<a href="https://prithibimandi.insforge.site">
+<a href="https://github.com/Prithibi17">
   <img src="https://img.shields.io/badge/GitHub-Profile-58A6FF?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
+
+<a href="https://your-portfolio-link.com">
+  <img src="https://img.shields.io/badge/Portfolio-Website-0d1117?style=for-the-badge&logo=googlechrome&logoColor=white"/>
+</a>
+
 <img src="https://komarev.com/ghpvc/?username=Prithibi17&label=Profile%20Views&color=1f6feb&style=for-the-badge"/>
 
 </div>
@@ -37,7 +41,7 @@ I build premium digital ecosystems, advanced web platforms, cloud-integrated sys
 
 ### Current Mission
 
-Designing modern, future-ready software solutions that combine technical excellence with premium digital aesthetics.
+Designing future-ready software solutions that combine technical excellence with premium digital aesthetics.
 
 </td>
 
@@ -170,6 +174,10 @@ Building future-grade software systems through precision, creativity, and scalab
 
 <a href="https://github.com/Prithibi17">
   <img src="https://img.shields.io/badge/GitHub-Prithibi17-58A6FF?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="https://your-portfolio-link.com">
+  <img src="https://img.shields.io/badge/Portfolio-Website-0d1117?style=for-the-badge&logo=googlechrome&logoColor=white"/>
 </a>
 
 </div>
