@@ -1,51 +1,39 @@
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,50:1a1a2e,100:0d1117&height=200&section=header&text=Prithibi_Mandi&fontSize=52&fontColor=ffffff&fontAlignY=55&desc=Frontend%20Engineer%20%E2%80%A2%20UI%20Architect%20%E2%80%A2%20Animation%20Craftsman&descSize=14&descAlignY=75&descColor=7d8590&animation=fadeIn" width="100%"/>
-
-</div>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,50:161b22,100:0d1117&height=180&section=header&text=Prithibi_Mandi&fontSize=48&fontColor=ffffff&fontAlignY=55&desc=Frontend%20Engineer%20%20%C2%B7%20%20UI%20Architect%20%20%C2%B7%20%20Animation%20Craftsman&descSize=13&descAlignY=74&descColor=8b949e&animation=fadeIn" width="100%" />
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=600&lines=Building+precision+frontend+systems;Crafting+high-fidelity+UI+animations;Engineering+performance-first+experiences;Designing+tools+developers+actually+want)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&duration=3000&pause=800&color=C9D1D9&center=true&vCenter=true&width=580&lines=Building+precision+frontend+systems;Crafting+high-fidelity+UI+animations;Engineering+performance-first+experiences;Designing+tools+developers+actually+want)](https://git.io/typing-svg)
+
+<br/>
+
+[![Portfolio](https://img.shields.io/badge/-Portfolio-0d1117?style=for-the-badge&logo=googlechrome&logoColor=58a6ff)](https://prithibimandi.insforge.site)
+[![GitHub](https://img.shields.io/badge/-Prithibi17-0d1117?style=for-the-badge&logo=github&logoColor=c9d1d9)](https://github.com/Prithibi17)
+[![Profile Views](https://komarev.com/ghpvc/?username=Prithibi17&style=for-the-badge&color=0d1117&label=PROFILE+VIEWS&abbreviated=true)](https://github.com/Prithibi17)
 
 </div>
 
 <br/>
 
-<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=161b22&height=2&section=header" width="100%"/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=googlechrome&logoColor=white&label=&labelColor=0d1117)](https://prithibimandi.insforge.site)&nbsp;
-[![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Prithibi17)&nbsp;
-![Profile Views](https://komarev.com/ghpvc/?username=Prithibi17&style=for-the-badge&color=0d1117&label=PROFILE+VIEWS)
+## &nbsp;About
 
-</div>
-
----
-
-<img align="right" width="320" src="https://github-readme-activity-graph.vercel.app/graph?username=Prithibi17&bg_color=0d1117&color=ffffff&line=1a1a2e&point=ffffff&area=true&area_color=1a1a2e&hide_border=true&radius=8" />
-
-### About Me
-
-I design and engineer frontend systems that don't compromise. Every line of code is intentional — built for precision, performance, and longevity.
+I design and engineer frontend systems that don't compromise — precision-built UI components, animation libraries, and developer tooling. Every repository exists to push the boundary of what a browser can render and what a developer can ship.
 
 **What I build:**
 
-- `KAL_browser` — Advanced productivity workstation for the modern web
-- `Cinematic-Animation-System` — 66+ original animations from physical principles  
-- `ai-frontend-skill-pack` — High-performance React + TypeScript UI modules
-- `All-15-skill-files-for-ai` — Zero-slop AI operational protocols
+| Repository | Description |
+|---|---|
+| [`KAL_browser`](https://github.com/Prithibi17/KAL_browser) | Advanced productivity workstation for the modern web |
+| [`Cinematic-Animation-System`](https://github.com/Prithibi17/Cinematic-Animation-System) | 66+ original animations engineered from physical principles |
+| [`ai-frontend-skill-pack`](https://github.com/Prithibi17/ai-frontend-skill-pack) | High-performance React + TypeScript + Tailwind UI modules |
+| [`All-15-skill-files-for-ai`](https://github.com/Prithibi17/All-15-skill-files-for-ai) | Zero-slop AI operational protocols for the full software lifecycle |
 
-**Current focus:**
+<br/>
 
-- High-fidelity UI from cosmological principles
-- AI-guided software lifecycle systems
-- Performance-first browser engineering
+<img src="https://capsule-render.vercel.app/api?type=rect&color=161b22&height=2&section=header" width="100%"/>
 
-<br clear="right"/>
-
----
-
-## Tech Stack
+## &nbsp;Tech Stack
 
 <div align="center">
 
@@ -62,35 +50,49 @@ I design and engineer frontend systems that don't compromise. Every line of code
 
 </div>
 
----
+<br/>
 
-## GitHub Statistics
+<img src="https://capsule-render.vercel.app/api?type=rect&color=161b22&height=2&section=header" width="100%"/>
+
+## &nbsp;Statistics
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=Prithibi17&show_icons=true&theme=dark&bg_color=0d1117&title_color=ffffff&text_color=7d8590&icon_color=ffffff&border_color=21262d&border_radius=10&count_private=true&include_all_commits=true" />
-&nbsp;
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prithibi17&layout=compact&theme=dark&bg_color=0d1117&title_color=ffffff&text_color=7d8590&border_color=21262d&border_radius=10&langs_count=6" />
+<img height="175" src="https://github-readme-stats.vercel.app/api?username=Prithibi17&show_icons=true&bg_color=0d1117&title_color=c9d1d9&text_color=8b949e&icon_color=58a6ff&border_color=30363d&border_radius=10&count_private=true&include_all_commits=true&hide_border=false" />
+&nbsp;&nbsp;
+<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prithibi17&layout=compact&bg_color=0d1117&title_color=c9d1d9&text_color=8b949e&border_color=30363d&border_radius=10&langs_count=6&hide_border=false" />
 
 </div>
 
 <div align="center">
 
-<img width="500" src="https://streak-stats.demolab.com/?user=Prithibi17&theme=dark&background=0d1117&stroke=21262d&ring=ffffff&fire=ffffff&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=7d8590&sideLabels=7d8590&dates=7d8590&border=21262d&border_radius=10" />
+<img width="500" src="https://streak-stats.demolab.com/?user=Prithibi17&background=0d1117&stroke=30363d&ring=58a6ff&fire=58a6ff&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=8b949e&sideLabels=8b949e&dates=8b949e&border=30363d&border_radius=10" />
+
+</div>
+
+<div align="center">
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=Prithibi17&theme=darkhub&no-bg=true&no-frame=true&column=6&margin-w=6&margin-h=6)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
 <br/>
 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=161b22&height=2&section=header" width="100%"/>
+
+## &nbsp;Activity Graph
+
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=Prithibi17&theme=darkhub&no-bg=true&no-frame=true&column=6&margin-w=8&margin-h=8)](https://github.com/ryo-ma/github-profile-trophy)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Prithibi17&bg_color=0d1117&color=8b949e&line=58a6ff&point=c9d1d9&area=true&area_color=58a6ff&hide_border=false&border_color=30363d&radius=10)](https://github.com/Prithibi17)
 
 </div>
 
----
+<br/>
 
-## Contribution Graph
+<img src="https://capsule-render.vercel.app/api?type=rect&color=161b22&height=2&section=header" width="100%"/>
+
+## &nbsp;Contribution Snake
 
 <div align="center">
 
@@ -102,10 +104,6 @@ I design and engineer frontend systems that don't compromise. Every line of code
 
 </div>
 
----
+<br/>
 
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1a1a2e&height=100&section=footer&fontSize=0" width="100%" />
-
-</div>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:161b22,100:0d1117&height=90&section=footer" width="100%" />
