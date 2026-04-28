@@ -1,27 +1,47 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0f0f,100:1a1a2e&height=120&section=header&fontColor=ffffff&fontSize=0" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,50:1a1a2e,100:0d1117&height=200&section=header&text=Prithibi_Mandi&fontSize=52&fontColor=ffffff&fontAlignY=55&desc=Frontend%20Engineer%20%E2%80%A2%20UI%20Architect%20%E2%80%A2%20Animation%20Craftsman&descSize=14&descAlignY=75&descColor=7d8590&animation=fadeIn" width="100%"/>
 
-# Prithibi\_Mandi
+</div>
 
-**Builder of precise, high-fidelity digital experiences**
+<div align="center">
 
-[![Website](https://img.shields.io/badge/Portfolio-prithibimandi.insforge.site-0f0f0f?style=flat-square&logo=googlechrome&logoColor=white)](https://prithibimandi.insforge.site)
-[![GitHub followers](https://img.shields.io/github/followers/Prithibi17?style=flat-square&logo=github&logoColor=white&color=0f0f0f&label=Followers)](https://github.com/Prithibi17)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=600&lines=Building+precision+frontend+systems;Crafting+high-fidelity+UI+animations;Engineering+performance-first+experiences;Designing+tools+developers+actually+want)](https://git.io/typing-svg)
+
+</div>
+
+<br/>
+
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=googlechrome&logoColor=white&label=&labelColor=0d1117)](https://prithibimandi.insforge.site)&nbsp;
+[![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Prithibi17)&nbsp;
+![Profile Views](https://komarev.com/ghpvc/?username=Prithibi17&style=for-the-badge&color=0d1117&label=PROFILE+VIEWS)
 
 </div>
 
 ---
 
-## About
+<img align="right" width="320" src="https://github-readme-activity-graph.vercel.app/graph?username=Prithibi17&bg_color=0d1117&color=ffffff&line=1a1a2e&point=ffffff&area=true&area_color=1a1a2e&hide_border=true&radius=8" />
 
-I design and engineer frontend systems that don't compromise — precision-built UI components, animation libraries, and developer tooling. Every repository here exists to push the boundary of what a browser can render and what a developer can ship.
+### About Me
 
-Currently focused on:
+I design and engineer frontend systems that don't compromise. Every line of code is intentional — built for precision, performance, and longevity.
 
-- Crafting high-fidelity UI animation systems from physical and cosmological principles
-- Building AI-guided software lifecycle protocols
-- Engineering performance-first browser experiences
+**What I build:**
+
+- `KAL_browser` — Advanced productivity workstation for the modern web
+- `Cinematic-Animation-System` — 66+ original animations from physical principles  
+- `ai-frontend-skill-pack` — High-performance React + TypeScript UI modules
+- `All-15-skill-files-for-ai` — Zero-slop AI operational protocols
+
+**Current focus:**
+
+- High-fidelity UI from cosmological principles
+- AI-guided software lifecycle systems
+- Performance-first browser engineering
+
+<br clear="right"/>
 
 ---
 
@@ -29,31 +49,42 @@ Currently focused on:
 
 <div align="center">
 
-![HTML5](https://img.shields.io/badge/HTML5-0f0f0f?style=flat-square&logo=html5&logoColor=E34F26)
-![CSS3](https://img.shields.io/badge/CSS3-0f0f0f?style=flat-square&logo=css3&logoColor=1572B6)
-![JavaScript](https://img.shields.io/badge/JavaScript-0f0f0f?style=flat-square&logo=javascript&logoColor=F7DF1E)
-![TypeScript](https://img.shields.io/badge/TypeScript-0f0f0f?style=flat-square&logo=typescript&logoColor=3178C6)
-![React](https://img.shields.io/badge/React-0f0f0f?style=flat-square&logo=react&logoColor=61DAFB)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-0f0f0f?style=flat-square&logo=tailwindcss&logoColor=06B6D4)
-![PowerShell](https://img.shields.io/badge/PowerShell-0f0f0f?style=flat-square&logo=powershell&logoColor=5391FE)
+![TypeScript](https://img.shields.io/badge/TypeScript-0d1117?style=for-the-badge&logo=typescript&logoColor=3178C6)
+![React](https://img.shields.io/badge/React-0d1117?style=for-the-badge&logo=react&logoColor=61DAFB)
+![HTML5](https://img.shields.io/badge/HTML5-0d1117?style=for-the-badge&logo=html5&logoColor=E34F26)
+![CSS3](https://img.shields.io/badge/CSS3-0d1117?style=for-the-badge&logo=css3&logoColor=1572B6)
+![JavaScript](https://img.shields.io/badge/JavaScript-0d1117?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-0d1117?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4)
+![PowerShell](https://img.shields.io/badge/PowerShell-0d1117?style=for-the-badge&logo=powershell&logoColor=5391FE)
+![Vite](https://img.shields.io/badge/Vite-0d1117?style=for-the-badge&logo=vite&logoColor=646CFF)
+![Git](https://img.shields.io/badge/Git-0d1117?style=for-the-badge&logo=git&logoColor=F05032)
+![VS Code](https://img.shields.io/badge/VS_Code-0d1117?style=for-the-badge&logo=visualstudiocode&logoColor=007ACC)
 
 </div>
 
 ---
 
-## Statistics
+## GitHub Statistics
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=Prithibi17&show_icons=true&theme=dark&bg_color=0f0f0f&title_color=ffffff&text_color=999999&icon_color=ffffff&border_color=1a1a1a&border_radius=8&hide_border=false&count_private=true" />
-&nbsp;&nbsp;
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prithibi17&layout=compact&theme=dark&bg_color=0f0f0f&title_color=ffffff&text_color=999999&border_color=1a1a1a&border_radius=8&langs_count=6" />
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=Prithibi17&show_icons=true&theme=dark&bg_color=0d1117&title_color=ffffff&text_color=7d8590&icon_color=ffffff&border_color=21262d&border_radius=10&count_private=true&include_all_commits=true" />
+&nbsp;
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prithibi17&layout=compact&theme=dark&bg_color=0d1117&title_color=ffffff&text_color=7d8590&border_color=21262d&border_radius=10&langs_count=6" />
 
 </div>
 
 <div align="center">
 
-<img width="480" src="https://streak-stats.demolab.com/?user=Prithibi17&theme=dark&background=0f0f0f&stroke=1a1a1a&ring=ffffff&fire=ffffff&currStreakNum=ffffff&sideNums=999999&currStreakLabel=999999&sideLabels=999999&dates=444444&border=1a1a1a&border_radius=8" />
+<img width="500" src="https://streak-stats.demolab.com/?user=Prithibi17&theme=dark&background=0d1117&stroke=21262d&ring=ffffff&fire=ffffff&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=7d8590&sideLabels=7d8590&dates=7d8590&border=21262d&border_radius=10" />
+
+</div>
+
+<br/>
+
+<div align="center">
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=Prithibi17&theme=darkhub&no-bg=true&no-frame=true&column=6&margin-w=8&margin-h=8)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
@@ -66,7 +97,7 @@ Currently focused on:
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Prithibi17/Prithibi17/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Prithibi17/Prithibi17/output/github-contribution-grid-snake.svg" />
-  <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/Prithibi17/Prithibi17/output/github-contribution-grid-snake-dark.svg" />
+  <img alt="Contribution Snake" src="https://raw.githubusercontent.com/Prithibi17/Prithibi17/output/github-contribution-grid-snake-dark.svg" />
 </picture>
 
 </div>
@@ -75,6 +106,6 @@ Currently focused on:
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:0f0f0f&height=80&section=footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1a1a2e&height=100&section=footer&fontSize=0" width="100%" />
 
 </div>
