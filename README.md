@@ -8,7 +8,8 @@
 
 <br><br>
 
-<a href="https://github.com/Prithibi17">
+<a href="https://github.com/Prithibi17"> </a>
+<a href="https://prithibimandi.insforge.site">
   <img src="https://img.shields.io/badge/GitHub-Profile-58A6FF?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 <img src="https://komarev.com/ghpvc/?username=Prithibi17&label=Profile%20Views&color=1f6feb&style=for-the-badge"/>
