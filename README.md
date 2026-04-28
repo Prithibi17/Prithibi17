@@ -1,109 +1,142 @@
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,50:161b22,100:0d1117&height=180&section=header&text=Prithibi_Mandi&fontSize=48&fontColor=ffffff&fontAlignY=55&desc=Frontend%20Engineer%20%20%C2%B7%20%20UI%20Architect%20%20%C2%B7%20%20Animation%20Craftsman&descSize=13&descAlignY=74&descColor=8b949e&animation=fadeIn" width="100%" />
+```html
+<div align="center" style="background: linear-gradient(135deg, #0d1117, #161b22); padding: 50px 20px; border-radius: 20px; border: 1px solid #30363d;">
 
-<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=34&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=900&lines=Prithibi+Mandi;Full-Stack+Developer;Creative+Technologist;Digital+Systems+Builder;Cloud+Infrastructure+Explorer" alt="Typing Animation" />
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&duration=3000&pause=800&color=C9D1D9&center=true&vCenter=true&width=580&lines=Building+precision+frontend+systems;Crafting+high-fidelity+UI+animations;Engineering+performance-first+experiences;Designing+tools+developers+actually+want)](https://git.io/typing-svg)
+  <br><br>
 
-<br/>
+  <h3 style="color:#c9d1d9; font-family:Arial, sans-serif; font-weight:500;">
+    Building scalable web platforms, immersive digital ecosystems, and premium software experiences.
+  </h3>
 
-[![Portfolio](https://img.shields.io/badge/-Portfolio-0d1117?style=for-the-badge&logo=googlechrome&logoColor=58a6ff)](https://prithibimandi.insforge.site)
-[![GitHub](https://img.shields.io/badge/-Prithibi17-0d1117?style=for-the-badge&logo=github&logoColor=c9d1d9)](https://github.com/Prithibi17)
-[![Profile Views](https://komarev.com/ghpvc/?username=Prithibi17&style=for-the-badge&color=0d1117&label=PROFILE+VIEWS&abbreviated=true)](https://github.com/Prithibi17)
+  <br>
 
-</div>
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=161b22&height=2&section=header" width="100%"/>
-
-## &nbsp;About
-
-I design and engineer frontend systems that don't compromise — precision-built UI components, animation libraries, and developer tooling. Every repository exists to push the boundary of what a browser can render and what a developer can ship.
-
-**What I build:**
-
-| Repository | Description |
-|---|---|
-| [`KAL_browser`](https://github.com/Prithibi17/KAL_browser) | Advanced productivity workstation for the modern web |
-| [`Cinematic-Animation-System`](https://github.com/Prithibi17/Cinematic-Animation-System) | 66+ original animations engineered from physical principles |
-| [`ai-frontend-skill-pack`](https://github.com/Prithibi17/ai-frontend-skill-pack) | High-performance React + TypeScript + Tailwind UI modules |
-| [`All-15-skill-files-for-ai`](https://github.com/Prithibi17/All-15-skill-files-for-ai) | Zero-slop AI operational protocols for the full software lifecycle |
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=161b22&height=2&section=header" width="100%"/>
-
-## &nbsp;Tech Stack
-
-<div align="center">
-
-![TypeScript](https://img.shields.io/badge/TypeScript-0d1117?style=for-the-badge&logo=typescript&logoColor=3178C6)
-![React](https://img.shields.io/badge/React-0d1117?style=for-the-badge&logo=react&logoColor=61DAFB)
-![HTML5](https://img.shields.io/badge/HTML5-0d1117?style=for-the-badge&logo=html5&logoColor=E34F26)
-![CSS3](https://img.shields.io/badge/CSS3-0d1117?style=for-the-badge&logo=css3&logoColor=1572B6)
-![JavaScript](https://img.shields.io/badge/JavaScript-0d1117?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![Tailwind](https://img.shields.io/badge/Tailwind_CSS-0d1117?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4)
-![PowerShell](https://img.shields.io/badge/PowerShell-0d1117?style=for-the-badge&logo=powershell&logoColor=5391FE)
-![Vite](https://img.shields.io/badge/Vite-0d1117?style=for-the-badge&logo=vite&logoColor=646CFF)
-![Git](https://img.shields.io/badge/Git-0d1117?style=for-the-badge&logo=git&logoColor=F05032)
-![VS Code](https://img.shields.io/badge/VS_Code-0d1117?style=for-the-badge&logo=visualstudiocode&logoColor=007ACC)
+  <a href="https://github.com/Prithibi17">
+    <img src="https://img.shields.io/badge/GitHub-Profile-58A6FF?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
 
 </div>
 
-<br/>
+---
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=161b22&height=2&section=header" width="100%"/>
+<div style="background:#161b22; padding:30px; border-radius:15px; border:1px solid #30363d;">
 
-## &nbsp;Statistics
+<h2 style="color:#58A6FF;">About Me</h2>
 
-<div align="center">
+<p style="color:#c9d1d9; line-height:1.8;">
+I specialize in building advanced digital platforms, scalable cloud systems, futuristic interfaces, and premium software ecosystems. My development philosophy combines performance engineering, modern UI/UX precision, and creative technology architecture.
+</p>
 
-<img height="175" src="https://github-readme-stats.vercel.app/api?username=Prithibi17&show_icons=true&bg_color=0d1117&title_color=c9d1d9&text_color=8b949e&icon_color=58a6ff&border_color=30363d&border_radius=10&count_private=true&include_all_commits=true&hide_border=false" />
-&nbsp;&nbsp;
-<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prithibi17&layout=compact&bg_color=0d1117&title_color=c9d1d9&text_color=8b949e&border_color=30363d&border_radius=10&langs_count=6&hide_border=false" />
-
-</div>
-
-<div align="center">
-
-<img width="500" src="https://streak-stats.demolab.com/?user=Prithibi17&background=0d1117&stroke=30363d&ring=58a6ff&fire=58a6ff&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=8b949e&sideLabels=8b949e&dates=8b949e&border=30363d&border_radius=10" />
-
-</div>
-
-<div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=Prithibi17&theme=darkhub&no-bg=true&no-frame=true&column=6&margin-w=6&margin-h=6)](https://github.com/ryo-ma/github-profile-trophy)
+<ul style="color:#c9d1d9; line-height:2;">
+  <li>Full-Stack Web Development</li>
+  <li>Cloud Infrastructure Systems</li>
+  <li>UI/UX Engineering</li>
+  <li>Digital Education Platforms</li>
+  <li>Game Development</li>
+  <li>Creative Software Solutions</li>
+</ul>
 
 </div>
 
-<br/>
+---
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=161b22&height=2&section=header" width="100%"/>
+<div align="center" style="background:#0d1117; padding:30px; border-radius:15px; border:1px solid #30363d;">
 
-## &nbsp;Activity Graph
+<h2 style="color:#58A6FF;">Technology Stack</h2>
 
-<div align="center">
+<br>
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Prithibi17&bg_color=0d1117&color=8b949e&line=58a6ff&point=c9d1d9&area=true&area_color=58a6ff&hide_border=false&border_color=30363d&radius=10)](https://github.com/Prithibi17)
-
-</div>
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=161b22&height=2&section=header" width="100%"/>
-
-## &nbsp;Contribution Snake
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Prithibi17/Prithibi17/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Prithibi17/Prithibi17/output/github-contribution-grid-snake.svg" />
-  <img alt="Contribution Snake" src="https://raw.githubusercontent.com/Prithibi17/Prithibi17/output/github-contribution-grid-snake-dark.svg" />
-</picture>
+<img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,python,firebase,aws,git,vscode,github" />
 
 </div>
 
-<br/>
+---
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:161b22,100:0d1117&height=90&section=footer" width="100%" />
+<div align="center" style="background:#161b22; padding:30px; border-radius:15px; border:1px solid #30363d;">
+
+<h2 style="color:#58A6FF;">GitHub Analytics</h2>
+
+<br>
+
+<img width="48%" src="https://github-readme-stats.vercel.app/api?username=Prithibi17&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+<img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prithibi17&layout=compact&theme=tokyonight&hide_border=true" />
+
+<br><br>
+
+<img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=Prithibi17&theme=tokyonight&hide_border=true" />
+
+</div>
+
+---
+
+<div align="center" style="background:#0d1117; padding:30px; border-radius:15px; border:1px solid #30363d;">
+
+<h2 style="color:#58A6FF;">Achievements</h2>
+
+<br>
+
+<img src="https://github-profile-trophy.vercel.app/?username=Prithibi17&theme=tokyonight&no-frame=true&row=1&column=7" />
+
+</div>
+
+---
+
+<div align="center" style="background:#161b22; padding:30px; border-radius:15px; border:1px solid #30363d;">
+
+<h2 style="color:#58A6FF;">Contribution Activity</h2>
+
+<br>
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Prithibi17&theme=tokyo-night&hide_border=true" />
+
+</div>
+
+---
+
+<div align="center" style="background:#0d1117; padding:30px; border-radius:15px; border:1px solid #30363d;">
+
+<h2 style="color:#58A6FF;">Contribution Snake</h2>
+
+<br>
+
+<img src="https://raw.githubusercontent.com/Prithibi17/Prithibi17/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
+
+</div>
+
+---
+
+<div style="background:#161b22; padding:30px; border-radius:15px; border:1px solid #30363d;">
+
+<h2 style="color:#58A6FF;">Current Priorities</h2>
+
+<ul style="color:#c9d1d9; line-height:2;">
+  <li>Enterprise Web Platforms</li>
+  <li>Digital Education Ecosystems</li>
+  <li>Advanced Portfolio Development</li>
+  <li>Game Systems Engineering</li>
+  <li>Cloud-Based Scalable Applications</li>
+  <li>Premium Responsive UI/UX</li>
+</ul>
+
+</div>
+
+---
+
+<div align="center" style="background: linear-gradient(135deg, #161b22, #0d1117); padding:40px; border-radius:20px; border:1px solid #30363d;">
+
+<h2 style="color:#58A6FF;">Connect</h2>
+
+<br>
+
+<a href="https://github.com/Prithibi17">
+  <img src="https://img.shields.io/badge/GitHub-Prithibi17-58A6FF?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+<br><br>
+
+<p style="color:#8b949e; font-size:16px;">
+Designing modern digital systems through precision, creativity, and scalable engineering.
+</p>
+
+</div>
+```
