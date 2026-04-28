@@ -53,7 +53,7 @@ Currently focused on:
 
 <div align="center">
 
-<img width="480" src="https://github-readme-streak-stats.herokuapp.com/?user=Prithibi17&theme=dark&background=0f0f0f&stroke=1a1a1a&ring=ffffff&fire=ffffff&currStreakNum=ffffff&sideNums=999999&currStreakLabel=999999&sideLabels=999999&dates=444444&border=1a1a1a&border_radius=8" />
+<img width="480" src="https://streak-stats.demolab.com/?user=Prithibi17&theme=dark&background=0f0f0f&stroke=1a1a1a&ring=ffffff&fire=ffffff&currStreakNum=ffffff&sideNums=999999&currStreakLabel=999999&sideLabels=999999&dates=444444&border=1a1a1a&border_radius=8" />
 
 </div>
 
