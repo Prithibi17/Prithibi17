@@ -1,9 +1,8 @@
-```html
 <div align="center" style="background: linear-gradient(135deg, #0d1117, #161b22); padding: 50px 20px; border-radius: 20px; border: 1px solid #30363d;">
 
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=34&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=900&lines=Prithibi+Mandi;Full-Stack+Developer;Creative+Technologist;Digital+Systems+Builder;Cloud+Infrastructure+Explorer" alt="Typing Animation" />
 
-  <br><br>
+<br><br>
 
   <h3 style="color:#c9d1d9; font-family:Arial, sans-serif; font-weight:500;">
     Building scalable web platforms, immersive digital ecosystems, and premium software experiences.
@@ -139,4 +138,3 @@ Designing modern digital systems through precision, creativity, and scalable eng
 </p>
 
 </div>
-```
